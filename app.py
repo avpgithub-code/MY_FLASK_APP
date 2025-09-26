@@ -73,5 +73,5 @@ if __name__ in '__main__':
     with app.app_context():
         db.create_all()
     
-    app.run(debug=True)
+    app.run(host='127.0.0.2',port=5000,debug=True)
 
